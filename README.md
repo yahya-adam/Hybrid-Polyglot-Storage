@@ -35,13 +35,13 @@ self.connection = pymysql.connect(
     database="database name"   # Create this database first
 )
 # sturcture of files 
-├── core_operations.json       # Core operation definitions
-├── database_Ops.py            # Database connection & operations
-├── GUI.py                     # Main application window
-├── transformManagerDatabase.py# Database singleton
-├── plugins/                   # Custom operations
-│   └── lowercase_plugin.py    # Sample plugin
-├── *.json                     # Operation scripts
+- ├── core_operations.json       # Core operation definitions
+- ├── database_Ops.py            # Database connection & operations
+- ├── GUI.py                     # Main application window
+- ├── transformManagerDatabase.py# Database singleton
+- ├── plugins/                   # Custom operations
+- │   └── lowercase_plugin.py    # Sample plugin
+- ├── *.json                     # Operation scripts
 # when executing run script
 use provided JSON files (i.e., Rename_column.json, delete_column.json, and merge_columns)
 # plugins usage
