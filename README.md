@@ -60,6 +60,6 @@ When executing, use the provided JSON files (i.e., Rename_column.json, delete_co
 
 Plugins Usage
 
-Place custom plugins in the plugins/ directory.
-Available plugins auto-load on startup.
-Access plugin buttons on the right sidebar of the GUI.
+- Place custom plugins in the plugins/ directory.
+- Available plugins auto-load on startup.
+- Access plugin buttons on the right sidebar of the GUI.
