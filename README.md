@@ -55,9 +55,11 @@ Project Structure
 - ├── *.json                     # Operation scripts
   
 Execution
+
 When executing, use the provided JSON files (i.e., Rename_column.json, delete_column.json, and merge_columns.json) to run batch transformations.
 
 Plugins Usage
+
     Place custom plugins in the plugins/ directory.
     Available plugins auto-load on startup.
     Access plugin buttons on the right sidebar of the GUI.
